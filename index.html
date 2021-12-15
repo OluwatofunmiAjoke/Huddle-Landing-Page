@@ -5,39 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
 </head>
 <body>
-  <object data="images/logo.svg" type="image/svg+xml"></object>
+  <header class="container">
+    <a href="#"><img src="images\logo.svg" alt="huddle-logo"></a>
+  </header>
 
-  <object data="images/illustration-mockups.svg" type="image/svg+xml"></object>
+  <main>
+    <div class="container">
+      <div class="illustration">
+        <img src="images\illustration-mockups.svg" alt="illustration">
+      </div>
 
-  <h1>Build The Community Your Fans Will Love</h1>
-
-  <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-    Create connections with your users as you engage in genuine discussion.</p>
-   
-  <button>Register</button>
-
-  <object data="images\facebook-f-brands.svg" type="image/svg+xml" width="30px" height="30px"></object>
-  <object data="images\twitter-brands.svg" type="image/svg+xml" width="30px" height="30px"></object>
-  <object data="images\instagram-brands.svg" type="image/svg+xml" width="30px" height="30px"></object>
- 
-
-
-
-
-    
-
+      <div class="content">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create conncetions with your users as you engage in genuine discussion</p>
+        <button class="btn">Register</button>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="images\facebook-f-brands.svg" alt="facebook"></a>
+      <a href="#"><img src="images\twitter-brands.svg" alt="twitter"></a>
+      <a href="#"><img src="images\instagram-brands.svg" alt="instagram"></a>
+    </div>
+  </main>
+  
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Oluwatofunmi Awodiji</a>.
-    </p>
+    <div class="footer">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+        >. Coded by <a href="#">Oluwatofunmi Awodiji</a>.
+      </p>
+    </div>
   </footer>
+
 </body>
 </html>
