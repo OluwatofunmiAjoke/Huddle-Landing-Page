@@ -6,7 +6,7 @@
 
 body{
     background-image: url("images/bg-desktop.svg");
-    background-color: hsl(257, 40%, 49%);
+    background-color: #674baf;
     margin: 3%;
 }
 
@@ -17,6 +17,7 @@ header img{
 .container{
     display: flex;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 .illustration{
@@ -26,6 +27,7 @@ header img{
 
 .content{
     padding: 50px;
+    padding-bottom: 0;
 }
 
 .content h1{
@@ -45,15 +47,39 @@ header img{
 .btn{
     background-color: #ffffff;
     border-style: none ;
-    padding: 15px 60px;
-    color: hsl(257, 40%, 49%);
-    border-radius: 20px;
+    padding: 13px 60px;
+    color: #674baf;
+    border-radius: 25px;
     font-size: 15px;
     font-family:'Poppins', sans-serif;
     font-weight: bold;
 
 }
-.btn :hover{
+.btn:hover{
     cursor: pointer;
     background-color: #e882e8;
+    color: #ffffff;
 }
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    float: right;
+    margin-bottom: 8px;
+}
+
+.social-icons i{
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    margin: 0 0.7rem;
+    padding: 0.8rem;
+}
+
+.social-icons i:hover{
+    color:#e882e8;
+    border-color: #e882e8;
+}
+
